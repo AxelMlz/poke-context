@@ -6,7 +6,7 @@ function randomNumber() {
 	return Math.floor(Math.random() * 875) + 1;
 }
 
-function home(){
+function Home(){
 const [pokemon, setPokemon] = useState();
 const [randomPokemon, setRandomPokemon] = useState(1);
 
@@ -40,4 +40,4 @@ const [randomPokemon, setRandomPokemon] = useState(1);
     )
   }
 
-export default home
+export default Home

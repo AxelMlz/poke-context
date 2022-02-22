@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import Home from "./home" 
 import { useHistory } from "react-router-dom";
 
-  function login()  {
+  function Login()  {
     const history = useHistory();
     const { Register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (data) =>{ history.push("/")};
@@ -27,4 +27,4 @@ import { useHistory } from "react-router-dom";
     )
   }
 
-export default login
+export default Login
